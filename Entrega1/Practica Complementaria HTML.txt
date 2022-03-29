@@ -1,0 +1,66 @@
+Ejercicio 1
+Ventajas de html
+Es gratuito No necesita ningún tipo de programa especial para empezar a programar en HTML5, incluso puede hacerlo en un bloc de notas, guardar el documento como HTML y podrá visualizarlo desde cualquier navegador. Sin embargo, aunque esto es posible no es realmente recomendable pues en un bloc de notas no separa las etiquetas del contenido y puede ser más complicado realizar correcciones.
+Código más ordenado Debido a la adición de nuevas etiquetas que ayudan a nombrar partes de la estructura básica de toda página web (como , por ejemplo), así como la eliminación de ciertas etiquetas, el código HTML se puede separar fácilmente entre etiquetas y contenido, permitiendo así que el desarrollador pueda trabajar de manera más efectiva y detectar errores de manera más rápida. Las etiquetas son claras y descriptivas, de modo que el desarrollador puede comenzar a codificar sin ningún problema. Es realmente un lenguaje bastante sencillo de comprender en esta nueva versión.
+Compatibilidad en navegadores Los navegadores modernos y populares como Chrome, Firefox, Safari y Opera soportan HTML5, es decir, sin importar qué navegador empleen los usuarios el contenido se puede visualizar correctamente. El único problema sería considerar a usuarios que emplean navegadores más antiguos, ya que en éstos no todas las nuevas funciones y etiquetas de HTML5 están disponibles.
+Almacenamiento mejorado Otra nueva adición en HTML5 ha sido el almacenamiento local que se define a sí mismo como “mejor que las cookies” pues la información nunca se transfiere al servidor. De esta manera, la información se mantiene segura. Asimismo, esta nueva característica permite que la información se mantenga almacenada incluso después de haber cerrado el navegador y como funciona desde el lado de cliente, la información se mantiene a salvo incluso si el usuario decide borrar sus cookies. Ya que la información se guarda en el navegador del usuario, da muchas más posibilidad a las aplicaciones web como por ejemplo el uso de caché que mejora el tiempo de respuesta de la aplicación.
+HMTL5 y el diseño adaptativo HTML5 es compatible con los navegadores móviles, de modo que cada página realizada en HTML5 que se ve en ordenadores, también se puede adaptar a los dispositivos móviles. Esta especificación para móviles puede hacerla desde el mismo documento HTML o puede emplear una framework especializada para mejorar tu productividad. Esta característica del lenguaje HTML5 es probablemente una de las más útiles, pues se puede acceder a cualquier página o aplicación web desde un dispositivo móvil y permite que la experiencia sea igual de buena que al visitar una página web en ordenadores.
+
+Para que se usa
+El lenguaje HTML5 se usa para definir la estructura básica de una página web. Sin embargo, una de sus más grandes adiciones en esta nueva versión es poder añadir audio y video sin necesidad de usar Flash u otro reproductor multimedia. Por medio de las etiquetas y de HTML5, permite añadir videos o audio sin necesidad de usar Adobe Flash o cualquier otro plugin de tercero.
+La gran parte de aplicaciones web funcionan desde la nube. Un ejemplo común son los clientes de correo como Gmail, que también cuenta con una aplicación móvil. Es probable que muchos usuarios prefieran la aplicación móvil, pero le da la facilidad a sus usuarios de elegir la opción que les atraiga más.
+
+Mas ventajas
+La gran ventaja de desarrollar aplicaciones HTML5 es que el resulta do final es completamente accesible, es decir, se puede acceder a esta aplicación desde un ordenador, tablet o móvil. Incluso al cambiar de dispositivo, se puede acceder a la aplicación web mediante la URL respectiva, cosa que no sucede con una aplicación móvil.
+
+Ejercicio 2
+Formatos que soporta html
+Los tres formatos que se deben tener en cuenta para audio son .mp3, .wav, .ogg
+Crear etiqueta de audio
+<audio controls>
+<source src="http://www.tutorialesprogramacionya.com/audios/gallo.ogg">
+<source src="http://www.tutorialesprogramacionya.com/audios/gallo.mp3">
+<source src="http://www.tutorialesprogramacionya.com/audios/gallo.wav">
+</audio>
+
+Ejercicio 3
+Los tres formatos que se deben tener en cuenta para la Web son WebM, MP4 y OGV
+<video controls>
+<source src="http://videos.mozilla.org/firefox/3.5/overview/overview.ogv">
+<source src="http://videos.mozilla.org/firefox/3.5/overview/overview.mp4">
+</video>
+
+Ejercicio 4
+A}
+<form>
+ <input type="text" id="usuario" required>
+</form>
+
+B}
+<form >
+ Mail:
+ <input type="email" id="emailusuario" required>
+<input type="submit" value="Confirmar">
+ </form>
+C}
+<form >
+ <p>r fecha:
+ <input type="date" id="fecha1" name="fecha1">
+ </p>
+</form>
+
+D}
+<form>
+ <p>Seleccione un color:
+ <input type="color" id="color1" name="color1">
+ </p>
+ <p><input type="submit" value="Confirmar"></p>
+ </form>
+
+E}
+<form>
+ <p>Ingrese un valor entre 1 y 10:
+ <input type="number" id="valor" name="valor" min="1" max="10">
+ </p>
+ <p><input type="submit" value="Confirmar"></p>
+ </form>
