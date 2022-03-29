@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 30%;
+        }
+
+        .tabla1 td {
+            border: 2px solid grey;
+            text-align: center;
+        }   
+               
+        label{
+           display: inline-block;
+           width: 80px;
+         }
+
+         .button{             
+             color: #171616;
+			background-color: #ffffff;
+			font-size: 15px;
+			border: 2px solid #4d4d50;
+			padding: 5px 5px;
+			cursor: pointer
+         }
+
+          .botones{
+              margin-left: 7%;
+          }
+
+         .consulta{
+            position:relative;
+            bottom:60px;
+         }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.frro.utn.edu.ar/">
+            <img src="toplogo.png">
+        </a>
+        <hr width="100%">
+    </header>
+    <h1>AÑO 2008</h1>
+    <table class="tabla1">
+        <tr>
+            <td colspan="4">Exámenes</td>            
+        </tr>        
+        <tr>
+            <td rowspan="2">Fecha: 9/07/2008</td>
+            <td >Aprobados </td>                        
+        </tr>
+        <tr>
+            <td >24/30 </td>            
+        </tr>       
+    </table>
+    <ol>
+        <li><a href="enunciado.html">Enunciado del examen</a></li>
+        <li><a href="resolucion.html" target="_blank">Resolucion</a></li>
+    </ol>
+    <span>Puede realizar consultas completando el siguiente formulario:</span> 
+    <br><br>
+    <form method="post" action="mailto:x@x.com" enctype="text/plain">
+        <div class="email">
+            <label for="email"><b>email:</b></label>
+            <input type="email" name='email' id="email"> 
+          </div>
+          <br>
+          <div class="description">
+            <label class="consulta" for="descripcion"><b>consulta:</b></label>
+            <textarea name="descripcion" id="descripcion" rows="5" cols="21"></textarea>
+          </div>             
+          <div class="botones">
+            <input class="button" type="submit" value="ENVIAR">
+            <input class="button" type="submit" value="BORRAR">
+          </div>       
+    </form>
+   
+<h3>Enunciado del examen</h3>    
+<div>
+    <p>
+        Ejercicio 1: ..........................<br>
+        .............................................. 
+    </p>
+    <p>
+        Ejercicio 2: ..........................<br>
+        .............................................. 
+    </p>
+</div>
+<span>Para mas informacion dirigrse a <a href="mailto:contacto@xx.com">contacto@xx.com</a> </span>
+
+</body>
+
+</html>
