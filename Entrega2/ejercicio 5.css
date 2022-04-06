@@ -7,23 +7,44 @@ h3 em,
 h4 em,
 h5 em,
 h6 em {
-	color:red;
+	color: red;
 }
 
 div p [href] {
-	color:black;
+	color: black;
 }
 
 /* Asumimos que un elemento identificado usa una ID.
 En ese caso, el div es redundante, ya que una ID solo debería aplicarse a un elemento. */
 div#ultimo ul{
-	color:yellow;
+	color: yellow;
 }
 div#ultimo ul a{
-	color:blue;
+	color: blue;
 }
 
 /* Como son más de un elemento identificado, usamos una clase. */
 div .importante{
-	color:green;
+	color: green;
+}
+h1 .importante,
+h2 .importante,
+h3 .importante,
+h4 .importante,
+h5 .importante,
+h6 .importante {
+	color: red;
+}
+
+h1[title]{
+	color: blue;
+}
+
+ol a{
+	text-decoration: none;
+	color: blue;
+}
+
+ol a:visited {
+	color: purple;
 }
