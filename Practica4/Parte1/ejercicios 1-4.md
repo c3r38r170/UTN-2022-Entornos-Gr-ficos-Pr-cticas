@@ -4,7 +4,7 @@
 
 **Entornos Gráficos 2022**
 
-# Práctica 4 - PHP: arrays, funciones
+# Práctica 4 - PHP: variables, tipos, operadores, expresiones, estructuras de control
 
 Integrantes: 
 * Turconi Gonzalo 
